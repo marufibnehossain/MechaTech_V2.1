@@ -14,7 +14,6 @@ import GLightbox from 'glightbox';
 
 const Product = () => {
   GLightbox({
-    selector: 'product-lightbox',
     touchNavigation: true,
     loop: true,
     autoplayVideos: true,
@@ -28,6 +27,7 @@ const Product = () => {
     //   }
     // ]
   });
+  
   return (
     <section id="product" className="product">
     <div className="container mx-auto">
@@ -53,7 +53,7 @@ const Product = () => {
 
         <div className="product-container w-full flex flex-wrap">
           {/* {cardinfo.map(infos)} */}
-          <div className='product-item filter-pump lg:w-1/3 md:w-1/2 w-full p-3'>
+          <div className={`product-item lg:w-1/3 md:w-1/2 w-full p-3`}>
             <div className="product-wrap group">
             <img src="https://www.haqislam.org//wp-content/uploads/2013/09/Makkah.jpg" className="object-cover transition duration-1000 group-hover:scale-110" alt="" />
             <div className="product-info before:content[''] after:content[''] group-hover:opacity-100 group-hover:before:top-4 group-hover:before:left-4 group-hover:after:bottom-4 group-hover:after:right-4">

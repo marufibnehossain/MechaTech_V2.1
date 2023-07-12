@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './swipercss.css';
-import HeadName from '../Shared/HeadName';
-import headinfo from '../Shared/headerInfo';
+import HeadName from '../../Shared/HeadName';
+import headinfo from '../../Data/headerInfo';
 // import ClientLogo from './ClientLogo';
 
 

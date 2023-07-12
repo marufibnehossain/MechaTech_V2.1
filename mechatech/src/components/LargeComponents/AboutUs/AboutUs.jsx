@@ -6,7 +6,7 @@ import './Polygon.css';
 
 const AboutUs = () => {
   return (
-    <section className='about py-20 bg-[#f0f5ff] shadow-[0_0_25px_0_rgba(0, 0, 0, 0.1)]'>
+    <section className='about polygon py-20 bg-[#f0f5ff] shadow-[0_0_25px_0_rgba(0, 0, 0, 0.1)]'>
       <div className='container mx-auto grid grid-cols-1 lg:grid-cols-7'>
         <div className='md:col-span-3 py-6 lg:text-left md:pr-3'>
             <header className="sm:pb-5 pb-6">

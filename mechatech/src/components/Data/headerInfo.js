@@ -6,6 +6,10 @@ const headinfo=[
     {
         name: "our values",
         para: "Lorem ipsum dolor sit amet consectetur."
-    }
+    },
+    {
+        name: "Service",
+        para: "Lorem ipsum dolor sit amet consectetur."
+    },
 ]
 export default headinfo;

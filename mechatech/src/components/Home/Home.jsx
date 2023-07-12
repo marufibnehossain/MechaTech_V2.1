@@ -1,24 +1,20 @@
 import React from 'react';
-import Navbar from '../Shared/navbar';
-import Drawer from '../Shared/Drawer';
-import Banner from '../Banner/Banner';
-import ClientSwipe from '../Clients/ClientSwipe';
-import AboutUs from '../AboutUs/AboutUs';
-import Values from '../AboutUs/Values';
-import Product from '../Products/Product';
+import Banner from '../LargeComponents/Banner/Banner';
+import ClientSwipe from '../LargeComponents/Clients/ClientSwipe';
+import AboutUs from '../LargeComponents/AboutUs/AboutUs';
+import Values from '../LargeComponents/AboutUs/Values';
+import Counter from '../LargeComponents/Counter/Counter';
+import Service from '../LargeComponents/Services/Service';
 
 const Home = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div>
-      <Navbar setIsOpen={setIsOpen} />
-      <Drawer isOpen={isOpen} setIsOpen={setIsOpen} />
       <Banner />
       <ClientSwipe />
-      
       <AboutUs />
       <Values />
-      <Product />
+      <Counter />
+      <Service />
     </div>
   )
 }

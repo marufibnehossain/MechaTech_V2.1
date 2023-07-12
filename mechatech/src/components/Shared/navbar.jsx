@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbtn from '../Shared/Navbtn';
+import Names from '../Data/Names';
 import { RiMenu3Fill } from 'react-icons/ri';
-import Names from "./Names";
 
 function NavbarBtn(nam){
   return <Navbtn key={nam.id} name={nam.name} />
@@ -11,7 +11,7 @@ function NavbarBtn(nam){
 const Navbar = ({ setIsOpen }) => {
   return (
     <div>
-      <nav className="text-left xl:px-10 md:px-8 4xs:px-5 h-20 sm:h-24 fixed z-50 top-0 left-0 w-full p-4 bg-white flex items-center justify-between shadow-[0_0_5px_0_rgba(0,0,0,0.1)]">
+      <nav className="text-left xl:px-10 md:px-8 4xs:px-5 h-20 sm:h-24 fixed z-40 top-0 left-0 w-full p-4 bg-white flex items-center justify-between shadow-[0_0_5px_0_rgba(0,0,0,0.1)]">
         <Link href="#title" className="text-gray-800 text-xl font-bold">Mechatech</Link>
 
         <div className='flex items-center'>

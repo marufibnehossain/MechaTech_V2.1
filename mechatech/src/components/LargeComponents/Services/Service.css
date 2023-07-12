@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    .services{
+        padding: 120px 0% 120px;
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    }
+  }
+  @media (max-width: 1200px) {
+    .services{
+        padding: 120px 0% 120px;
+        clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+    }
+  }
+  @media (max-width: 985px) {
+    .services{
+        padding: 120px 0% 120px;
+        clip-path: polygon(0 2.5%, 100% 0, 100% 97.5%, 0% 100%);
+    }
+}
+  @media (max-width: 768px) {
+    .services {
+        padding: 120px 0% 100px;
+      clip-path: polygon(0 1.5%, 100% 0, 100% 98.5%, 0% 100%);
+    }
+  }
