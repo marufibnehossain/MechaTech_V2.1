@@ -5,6 +5,10 @@ import AboutUs from '../LargeComponents/AboutUs/AboutUs';
 import Values from '../LargeComponents/AboutUs/Values';
 import Counter from '../LargeComponents/Counter/Counter';
 import Service from '../LargeComponents/Services/Service';
+import ClientsReview from '../LargeComponents/Clients-Review/ClientsReview';
+import FAQ from '../LargeComponents/FAQ/FAQ';
+import Team from '../LargeComponents/Team/Team';
+import Contact from '../LargeComponents/Contact/Contact';
 
 const Home = () => {
   return (
@@ -15,6 +19,10 @@ const Home = () => {
       <Values />
       <Counter />
       <Service />
+      <ClientsReview />
+      <FAQ />
+      <Team />
+      <Contact />
     </div>
   )
 }

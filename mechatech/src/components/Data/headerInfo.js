@@ -11,5 +11,21 @@ const headinfo=[
         name: "Service",
         para: "Lorem ipsum dolor sit amet consectetur."
     },
+    {
+        name: "Clients review",
+        para: "Lorem ipsum dolor sit amet consectetur."
+    },
+    {
+        name: "FAQ",
+        para: "Frequently Asked Questions."
+    },
+    {
+        name: "team",
+        para: "Our hard working team"
+    },
+    {
+        name: "Contact",
+        para: "contact us"
+    },
 ]
 export default headinfo;
